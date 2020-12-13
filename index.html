@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello Clone</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header><h1>Bilal Keskin Todo App</h1></header>
+
+    <form action="">
+      <input type="text" class="todo-input" />
+      <button class="todo-add" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <div class="select">
+        <select name="todos" class="filter-todos">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="noncompleted">Not Completed</option>
+        </select>
+      </div>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+  </body>
+</html>
